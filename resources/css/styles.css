@@ -64,7 +64,7 @@ header {
     height: 64px;   
 }
 
-@media (hover: none) {
+@media only screen and (max-width: 600px) {
 
     header {
         justify-content: space-around;
@@ -79,7 +79,7 @@ header {
     }
 }
 
-@media (hover: hover) {
+@media only screen and (min-width: 600px) {
 
     .images_mobile {
         display: none;
@@ -126,7 +126,7 @@ button {
     border: none;
 }
 
-@media (hover: none) {
+@media only screen and (max-width: 600px) {
 
     .learn {
         display: block;
@@ -245,14 +245,14 @@ a:hover {
     text-decoration: underline;
 }
 
-@media (hover: hover) {
+@media only screen and (min-width: 600px) {
 
     .information_mobile {
         display: none;
     }
 }
 
-@media (hover: none) {
+@media only screen and (max-width: 600px) {
 
     .information {
         display: none;
@@ -303,7 +303,7 @@ a:hover {
     padding-left: 16px;
 }
 
-@media (hover: none) {
+@media only screen and (max-width: 600px) {
     .start_learning {
         width: 108%;
         background-color:rgb(253, 249, 249);
